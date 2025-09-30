@@ -1,0 +1,40 @@
+# Go build
+/bin/
+/obj/
+/out/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# Go workspace
+/vendor/
+/Gopkg.lock
+/Gopkg.toml
+
+# IDE/编辑器
+*.idea/
+*.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.temp
+*.bak
+*.old
+
+# 配置文件（敏感信息，如数据库密码、Kafka配置等）
+.env
+
+# 测试生成的文件
+/testdata/
+*.coverprofile
+
+# Kafka/Redis本地数据（如有）
+data/
